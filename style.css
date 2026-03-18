@@ -1,0 +1,107 @@
+body {
+    background-color: #4A6FA5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4F6D7A;
+    text-align: center;
+    padding: 10px;
+}
+
+.nagłówek {
+    font-size: 1.5em;
+    color: black;
+    margin: 10px;
+}
+
+nav {
+    background-color: #C0D6DF;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 40px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    padding: 10px 20px;
+    background-color: #4A6FA5;
+    border-radius: 30px;
+    color: white;
+}
+
+.glowny {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.uklad-strony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lewa-kolumna {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.prawa-kolumna {
+    width: 50%;
+}
+
+.blok {
+    background-color: #4F6D7A;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.duzy-blok {
+    min-height: 350px;
+    padding: 10px;
+}
+
+.blok img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+}
+
+video {
+    background-color: #4F6D7A;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #4F6D7A;
+    padding: 5px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1em;
+    margin: 10px;
+}
